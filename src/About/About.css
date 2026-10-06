@@ -67,3 +67,43 @@
   text-align: center;
   width: 70vw;
 }
+
+@media (max-width: 767px) {
+  .credit-row {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+  }
+  .credit-cell {
+    width: 90vw;
+    margin-right: 0;
+    margin-left: 0;
+    padding: 2vh 2vw;
+  }
+  .credit-cell img {
+    width: 70%;
+    max-width: 220px;
+    height: auto;
+    object-fit: cover;
+  }
+  .credit-row-title {
+    font-size: 5vh;
+    font-weight: 600;
+    margin-top: 3vh;
+    margin-bottom: 2.5vh;
+    text-align: center;
+  }
+  .credit-name {
+    font-size: 2.5vh;
+  }
+  .credit-title {
+    font-size: 2vh;
+  }
+  .thankyou-box {
+    width: 90%;
+    margin-top: 4vh;
+    margin-bottom: 5vh;
+    text-align: center;
+  }
+}
